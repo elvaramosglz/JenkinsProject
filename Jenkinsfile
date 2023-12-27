@@ -4,6 +4,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Your build commands here
+                println("hello")
             }
         }
